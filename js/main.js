@@ -94,6 +94,19 @@ function commander(cmd) {
             addLine("Opening GitHub...", "color2", 0);
             newTab(github);
             break;
+        //projects
+        case "jchat":
+            addLine("Opening project JChat...", "color2", 0);
+            newTab(jchat);
+            break;
+        case "tgbot":
+            addLine("Opening project TgBot...", "color2", 0);
+            newTab(tgbot);
+            break;
+        case "library":
+            addLine("Opening project LibraryManager...", "color2", 0);
+            newTab(library);
+            break;
         default:
             addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
             break;

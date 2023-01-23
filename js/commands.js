@@ -1,16 +1,25 @@
 const linkedin = "https://www.linkedin.com/in/asiverskii/";
 const github = "https://github.com/Craevan/";
 const email = 'mailto:a.siverskii@gmail.com';
+//projects
+const jchat = "https://github.com/Craevan/JChat";
+const tgbot = "https://github.com/Craevan/TelegramBot";
+const library = "https://github.com/Craevan/LibraryManager";
 
 whois = [
     "<br>",
-    "WHOIS TEXT",
+    "Hi, my name is Alex.",
+    "I have been fond of information technology since childhood.",
+    "Now I am actively studying Java and Spring Framework. ",
+    "My dream is to become a part of a team of programmers who create useful tools for people.",
     "<br>"
 ];
 
 whoami = [
     "<br>",
-    "WHOAMI TEXT",
+    navigator.vendor,
+    "<br>",
+    navigator.userAgent,
     "<br>"
 ];
 
@@ -23,7 +32,11 @@ social = [
 
 projects = [
     "<br>",
-    "PROJECTS TEXT",
+    'jchat       <a href="' + jchat + '" target="_blank">Client-Server chat' + "</a>",
+    'tgbot       <a href="' + tgbot + '" target="_blank">Bot for Telegram messenger' + "</a>",
+    'library     <a href="' + library + '" target="_blank">CRUD Spring MVC web-app' + "</a>",
+    "<br>",
+    "type the project name to go to the repository",
     "<br>"
 ];
 
