@@ -5,7 +5,7 @@ const email = 'mailto:a.siverskii@gmail.com';
 const jchat = "https://github.com/Craevan/JChat";
 const tgbot = "https://github.com/Craevan/TelegramBot";
 const library = "https://github.com/Craevan/LibraryManager";
-const TaskList = "https://github.com/Craevan/TaskList";
+const tasklist = "https://github.com/Craevan/TaskList";
 const employeeManager = "https://github.com/Craevan/RestEmployeeManagement";
 
 whois = [
@@ -34,11 +34,11 @@ social = [
 
 projects = [
     "<br>",
-    'tasklist    <a href="' + TaskList + '" target="_blank">Spring Boot (Data-JDBC; Data-JPA; Web; Security) JWT token; Liquibase; Mybatis; PostgreSQL; Mapstruct;' + "</a>",
+    'tasklist    <a href="' + tasklist + '" target="_blank">Spring Boot (Data-JDBC; Data-JPA; Web; Security) JWT; Liquibase; Mybatis; PostgreSQL; Mapstruct;' + "</a>",
     'jchat       <a href="' + jchat + '" target="_blank">Client-Server chat' + "</a>",
     'tgbot       <a href="' + tgbot + '" target="_blank">Bot for Telegram messenger' + "</a>",
     'library     <a href="' + library + '" target="_blank">CRUD Spring MVC web-app' + "</a>",
-    'employeeManager     <a href="' + library + '" target="_blank">REST API Spring Boot' + "</a>",
+    'employee    <a href="' + employeeManager + '" target="_blank">REST API Spring Boot' + "</a>",
     "<br>",
     "type the project name to go to the repository",
     "<br>"

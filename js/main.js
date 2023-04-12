@@ -95,6 +95,10 @@ function commander(cmd) {
             newTab(github);
             break;
         //projects
+        case "tasklist":
+            addLine("Opening project TaskList...", "color2", 0);
+            newTab(tasklist);
+            break;
         case "jchat":
             addLine("Opening project JChat...", "color2", 0);
             newTab(jchat);
@@ -106,6 +110,10 @@ function commander(cmd) {
         case "library":
             addLine("Opening project LibraryManager...", "color2", 0);
             newTab(library);
+            break;
+        case "employee":
+            addLine("Opening project REST EmployeeManager...", "color2", 0);
+            newTab(employeeManager);
             break;
         default:
             addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
