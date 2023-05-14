@@ -86,8 +86,8 @@ function commander(cmd) {
             loopLines(banner, "", 80);
             break;
         // socials
-        case "linkedin":
-            addLine("Opening LinkedIn...", "color2", 0);
+        case "headhunter":
+            addLine("Opening HeadHunter...", "color2", 0);
             newTab(linkedin);
             break;
         case "github":
@@ -103,17 +103,9 @@ function commander(cmd) {
             addLine("Opening project JChat...", "color2", 0);
             newTab(jchat);
             break;
-        case "tgbot":
-            addLine("Opening project TgBot...", "color2", 0);
+        case "votesystem":
+            addLine("Opening project VoteSystem...", "color2", 0);
             newTab(tgbot);
-            break;
-        case "library":
-            addLine("Opening project LibraryManager...", "color2", 0);
-            newTab(library);
-            break;
-        case "employee":
-            addLine("Opening project REST EmployeeManager...", "color2", 0);
-            newTab(employeeManager);
             break;
         default:
             addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);

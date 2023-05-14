@@ -1,12 +1,10 @@
-const linkedin = "https://www.linkedin.com/in/asiverskii/";
+const headhunter = "https://spb.hh.ru/resume/bf01b5f0ff0bed22bf0039ed1f6577476e5857";
 const github = "https://github.com/Craevan/";
 const email = 'mailto:a.siverskii@gmail.com';
 //projects
+const voteSystem = "https://github.com/Craevan/VoteSystem";
 const jchat = "https://github.com/Craevan/JChat";
-const tgbot = "https://github.com/Craevan/TelegramBot";
-const library = "https://github.com/Craevan/LibraryManager";
 const tasklist = "https://github.com/Craevan/TaskList";
-const employeeManager = "https://github.com/Craevan/RestEmployeeManagement";
 
 whois = [
     "<br>",
@@ -27,18 +25,16 @@ whoami = [
 
 social = [
     "<br>",
-    'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/asiverskii' + "</a>",
+    'headhunter       <a href="' + headhunter + '" target="_blank">HeadHunter' + "</a>",
     'github         <a href="' + github + '" target="_blank">github/Craevan' + "</a>",
     "<br>"
 ];
 
 projects = [
     "<br>",
+    'voteSystem    <a href="' + voteSystem + '" target="_blank">REST API Spring Boot (H2 DB, Caffeine cache, Swagger/OpenAPI 3.0, JUnit/Mockito' + "</a>",
     'tasklist    <a href="' + tasklist + '" target="_blank">Spring Boot (Data-JDBC; Data-JPA; Web; Security) JWT; Liquibase; Mybatis; PostgreSQL; Mapstruct;' + "</a>",
     'jchat       <a href="' + jchat + '" target="_blank">Client-Server chat' + "</a>",
-    'tgbot       <a href="' + tgbot + '" target="_blank">Bot for Telegram messenger' + "</a>",
-    'library     <a href="' + library + '" target="_blank">CRUD Spring MVC web-app' + "</a>",
-    'employee    <a href="' + employeeManager + '" target="_blank">REST API Spring Boot' + "</a>",
     "<br>",
     "type the project name to go to the repository",
     "<br>"
