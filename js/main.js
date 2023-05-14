@@ -88,7 +88,7 @@ function commander(cmd) {
         // socials
         case "headhunter":
             addLine("Opening HeadHunter...", "color2", 0);
-            newTab(linkedin);
+            newTab(headhunter);
             break;
         case "github":
             addLine("Opening GitHub...", "color2", 0);
@@ -105,7 +105,7 @@ function commander(cmd) {
             break;
         case "votesystem":
             addLine("Opening project VoteSystem...", "color2", 0);
-            newTab(tgbot);
+            newTab(voteSystem);
             break;
         default:
             addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
