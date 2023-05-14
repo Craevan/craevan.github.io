@@ -25,14 +25,14 @@ whoami = [
 
 social = [
     "<br>",
-    'headhunter       <a href="' + headhunter + '" target="_blank">HeadHunter' + "</a>",
+    'headhunter     <a href="' + headhunter + '" target="_blank">HeadHunter' + "</a>",
     'github         <a href="' + github + '" target="_blank">github/Craevan' + "</a>",
     "<br>"
 ];
 
 projects = [
     "<br>",
-    'voteSystem    <a href="' + voteSystem + '" target="_blank">REST API Spring Boot (H2 DB, Caffeine cache, Swagger/OpenAPI 3.0, JUnit/Mockito' + "</a>",
+    'votesystem  <a href="' + voteSystem + '" target="_blank">REST API Spring Boot (H2 DB, Caffeine cache, Swagger/OpenAPI 3.0, JUnit/Mockito' + "</a>",
     'tasklist    <a href="' + tasklist + '" target="_blank">Spring Boot (Data-JDBC; Data-JPA; Web; Security) JWT; Liquibase; Mybatis; PostgreSQL; Mapstruct;' + "</a>",
     'jchat       <a href="' + jchat + '" target="_blank">Client-Server chat' + "</a>",
     "<br>",
